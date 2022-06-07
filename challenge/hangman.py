@@ -6,19 +6,19 @@ Day # 7
 
 import random
 
-
+# TODO use a file or api to get random words
 word_list = ["aardvark", "baboon", "camel"]
 
 # Chose a random word from word_list
 chosen_word = random.choice(word_list)
 
-
-print(chosen_word)
-
 # Generate the blanks of the word
 display_word = ["_"] * len(chosen_word)
 # Guessing chances
 lives = 6
+
+# TODO ascii-art or something prettier
+
 
 print(" ".join(display_word))
 
@@ -44,12 +44,15 @@ while "_" in display_word and lives > 0:
         lives -= 1
         if lives == 1:
             print("Last chance! Good luck!")
-    # Displaying the word with it's blanks and remaining lives
+
+    # Display the word with it's blanks and remaining lives
     print("\n" + " ".join(display_word))
     print(f"Remaining lives: {lives}")
 
+print("GAME OVER")
 if lives == 0:
     print("YOU'VE LOST")
+    print(f"The word was: {chosen_word}")
 else:
     print("YOU WIN!!!")
 
