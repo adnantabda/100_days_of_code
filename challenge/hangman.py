@@ -20,6 +20,65 @@ print("""
 """
       )
 
+# Images
+stages = ['''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
+
+
 # TODO use a file or api to get random words
 word_list = ["aardvark", "baboon", "camel"]
 
@@ -46,12 +105,12 @@ while "_" in display_word and lives > 0:
 
     # Check user not to enter more than 1 LETTER
     while len(guess) != 1 or not guess.isalpha():
-        print("I said A letter!")
-        guess = input("\nGuess a letter: ").lower()
+        print("\nI said A letter!\n")
+        guess = input("Guess a letter: ").lower()
 
     # Guessed letter match a letter in word
     if guess in chosen_word:
-        print("Correct!")
+        print("\nCorrect!")
         # Obtain the index of each letter
         for index, letter in enumerate(chosen_word):
             if letter == guess:
@@ -60,17 +119,20 @@ while "_" in display_word and lives > 0:
 
     # No match. Loose a life
     else:
-        print(f"You loose a life.")
+        print(f"\nNope, you loose a life!")
         lives -= 1
         if lives == 1:
             print("Last chance! Good luck!")
 
     # Display the word with it's blanks and remaining lives
+    print(stages[lives])
     print("\n" + " ".join(display_word))
+    # print("\n" + stages[lives])
     print(f"\nRemaining lives: {lives}")
 
 # End game
-print("\nGAME OVER")
+print("\n\n\n\nGAME OVER")
+print(stages[lives])
 if lives == 0:
     print("YOU'VE LOST")
     print(f"The word was: {chosen_word}")
