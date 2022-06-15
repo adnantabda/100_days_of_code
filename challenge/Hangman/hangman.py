@@ -7,83 +7,14 @@ Day # 7
 import random
 import sys
 
+import components
+
 # Title
-print("""
- _                                             
-| |                                            
-| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
-| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
-| | | | (_| | | | | (_| | | | | | | (_| | | | |
-|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
-                    __/ |                      
-                   |___/                
-"""
-      )
-
-# Images
-stages = ['''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========
-''']
+print(components.logo)
 
 
-# TODO use a file or api to get random words
-word_list = ["aardvark", "baboon", "camel"]
-
-# Chose a random word from word_list
-chosen_word = random.choice(word_list)
+# Chose a random word from components/word_list
+chosen_word = random.choice(components.word_list)
 
 # Generate the blanks of the word
 display_word = ["_"] * len(chosen_word)
@@ -125,14 +56,13 @@ while "_" in display_word and lives > 0:
             print("Last chance! Good luck!")
 
     # Display the word with it's blanks and remaining lives
-    print(stages[lives])
+    print(components.stages[lives])
     print("\n" + " ".join(display_word))
-    # print("\n" + stages[lives])
     print(f"\nRemaining lives: {lives}")
 
 # End game
 print("\n\n\n\nGAME OVER")
-print(stages[lives])
+print(components.stages[lives])
 if lives == 0:
     print("YOU'VE LOST")
     print(f"The word was: {chosen_word}")
