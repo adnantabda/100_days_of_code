@@ -1,5 +1,7 @@
+"""Ascii art and words list for hangman game."""
 
-logo ="""
+
+logo = """
  _                                             
 | |                                            
 | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
