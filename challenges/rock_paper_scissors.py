@@ -1,6 +1,6 @@
 """
 Rock-paper-scissors game.
-Project for Angela Wu's 100 days of code challenge.
+Project for Angela Wu's 100 days of code challenges.
 Day # 4
 """
 
