@@ -30,8 +30,6 @@ def guess_number():
 
 def guessing_game():
     """Game where you hace to guess a number between 1 and 100."""
-    print("Welcome to the Number Guessing Game, my friend.")
-    print("So... I heard you're saying you can guess what other people are thinking of...")
     print("\nI'm thinking of a number between 1 and 100.")
     print("Let's see what are you made of!\n\n")
 
@@ -61,7 +59,11 @@ def guessing_game():
 
 ###################################################################
 
+
 print(title)
+print("Welcome to the Number Guessing Game, my friend.")
+print("So... I heard you're saying you can guess what other people are thinking of...")
+
 guessing_game()
 # Repeat
 while input("\n\nDo you want to play again? 'y' or 'n': ").lower() == 'y':
