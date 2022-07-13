@@ -10,9 +10,9 @@ Theese projects are from Angela Yu's 100 days of code challege using Python cour
 <br>
 
 ---
-
-### Project 1
-#### Rock-Paper-Scissors game
+#### Day 4
+## Project #1
+### <u>Rock-Paper-Scissors game.</u>
 
 Classic game controlled with the keyboard with some cool ascii-art.
 You can play till you want to quit.
@@ -20,9 +20,9 @@ You can play till you want to quit.
 <br>
 
 ---
-
-### Project 2
-####  PyPassword Generator.
+#### Day 5
+## Project #2
+### <u>PyPassword Generator.</u>
 
 It let's you create random passwords.
 The only thing you need to do is decide how many characters (letters, symbols and numbers) you wish your password to contain.
@@ -30,8 +30,11 @@ The only thing you need to do is decide how many characters (letters, symbols an
 <br>
 
 ---
-### Project 3
-#### Caesar Cipher
+#### Day 7
+## Project #3
+### <u>The Hangman.</u>
+
+My version of the classic hang-man game, where you have to guess a given word before a figure of a man hanging gets drawn on the screen.
 
 Lets you create encrypted messages for your secret comunications! 
 Also let's you decrypt messages if you have the valid key
@@ -39,16 +42,18 @@ Also let's you decrypt messages if you have the valid key
 <br>
 
 ---
-### Project 4
-#### The Hangman
-
-My version of the classic hang-man game, where you have to guess a given word before a figure of a man hanging gets drawn on the screen.
+#### Day 8
+## Project #4
+### <u>Caesar Cipher.</u>
+Lets you create encrypted messages for your secret comunications! 
+Also let's you decrypt messages if you have the valid key
 
 <br>
 
 ---
-### Project 5
-#### Secret Auction Program
+#### Day 9
+## Project #5
+### <u>Secret Auction Program.</u>
 
 Just what you may imagine; a program that lets n number of users to participate in a secret auction program.
 You need to enter the name and bid of each participant and the screen will clean for every participant so nobody knows anyother bid.
@@ -56,8 +61,9 @@ You need to enter the name and bid of each participant and the screen will clean
 <br>
 
 ---
-### Project 6
-#### Calculator
+#### Day 10
+## Project #6
+### <u>Calculator.</u>
 
 A calculator that lets make basic operations ( +, -, *, / ).
 With this calculator you can use your previous result to continue operateing or you can clear up the memory and start over again.
@@ -65,8 +71,9 @@ With this calculator you can use your previous result to continue operateing or 
 <br>
 
 ---
-### Project 7
-#### Blackjack
+#### Day 11
+## Project #7
+### <u>Blackjack.</u>
 
 The classic BlackJack game.
 
@@ -75,8 +82,9 @@ The classic BlackJack game.
 <br>
 
 ---
-### Project 8
-#### Number Guessing Game
+#### Day 12
+## Project #8
+### <u>Number Guessing Game.</u>
 
 A game where you have to guess a number between 1 and 100.
 You have 2 levels to choose from; level easy wich counts with 10 attempts,
@@ -85,12 +93,59 @@ and a hard level where you get only 5 chances to win.
 <br>
 
 ---
-### Project 9
-####
+#### Day 14
+## Project #9
+### <u>Higher-Lower Game.</u>
 
 <br>
 
 ---
-### Project 10
-####
+#### Day
+## Project #
+### <u></u>
 
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
