@@ -29,7 +29,7 @@ def higher_lower():
               )
         print(vs)
         print(f"Against B:\n\t{option_b['name']}, "
-              f"{option_b['description']}"
+              f"a {option_b['description']}"
               f" from {option_b['country']}"
               )
         answer = input("\nWho has more followers?\nType 'A' or 'B': ").lower()
