@@ -97,6 +97,11 @@ and a hard level where you get only 5 chances to win.
 ## Project #9
 ### <u>Higher-Lower Game.</u>
 
+From a list of dict containing famous accounts, you will be ask to guess which
+of the 2 posibilities has the bigger number of followers. If you get it right, 
+you win a point and the last account will become 
+the first one for the following round.
+
 <br>
 
 ---
