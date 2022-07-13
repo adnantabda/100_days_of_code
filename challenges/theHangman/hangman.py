@@ -5,7 +5,7 @@ Day # 7
 
 import random
 import sys
-import os
+
 
 import components
 
@@ -31,7 +31,7 @@ while "_" in display_word and lives > 0:
     guess = input("Guess a letter: ").lower()
 
     # To clear screen (on linux)
-    os.system("clear")
+    # os.system("clear")
 
     # To clar screen on windows; os.system("cls")
 
