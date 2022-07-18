@@ -105,9 +105,17 @@ the first one for the following round.
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
+#### Day 15
+## Project #10
+### <u>Coffee Machine Code.</u>
+
+A simple program emulating a coffee machine.
+You could choose from a latte, espresso or cappuccino and the machine will
+tell you the cost and will check the resources currently in the machine to 
+see if there are enough to make the drink.
+You also have 2 secret codes for maintanance; "report" will print out the
+current resources available, includeing how much money from the sales done. And
+"off" will turn off the machine for refilling and collect the money in it.
 
 <br>
 
