@@ -120,9 +120,12 @@ current resources available, includeing how much money from the sales done. And
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
+#### Day 16
+## Project #10v2
+### <u>OOP - Coffee Machine Code</u>
+
+Same as Coffee Machine Code but with an OOP approach using classes, attributes
+and methods.
 
 <br>
 

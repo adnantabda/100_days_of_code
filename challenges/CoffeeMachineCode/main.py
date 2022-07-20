@@ -38,14 +38,15 @@ def user_choice():
 
 
 def check_resources(order: str, lasting_resources: dict):
-    """Check if there are enough resources to prepare the customer's drink."""
+    """Returns True if the machine has enough resources to make the drink
+    and False if it's not possible to.
+    """
     order_ingredients = MENU[order]['ingredients']
     for ingredient in order_ingredients:
-        if lasting_resources[ingredient] - order_ingredients[ingredient] < 0:
+        if lasting_resources[ingredient] < order_ingredients[ingredient]:
             print(f"Sorry, there's not enough {ingredient}")
             return False
-        else:
-            return True
+    return True
 
 
 def charge(order, cost):
@@ -63,7 +64,7 @@ def charge(order, cost):
 
 
 def make_drink(order: str, lasting_resources: dict):
-    """Makes the drink and update the current resources on the machine."""
+    """Subtracts the ingredients for a given drink from the machine."""
     order_ingredients = MENU[order]['ingredients']
     for k, v in order_ingredients.items():
         lasting_resources[k] -= v
