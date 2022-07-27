@@ -2,7 +2,6 @@
 Project for Angela Wu's 100 days of code challenges.
 Day # 11
 """
-
 from components import *
 
 

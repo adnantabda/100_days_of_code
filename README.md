@@ -130,9 +130,15 @@ and methods.
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
+#### Day 17
+## Project # 11
+### <u>Faking Damien Hirst</u>
+
+Using [**colorgram**](https://github.com/obskyr/colorgram.py#colorgrampy) 
+and [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html) modules,
+this program will create a spot painting Damien Hirst's style.
+With colorgram I extracted the top 20 common colors in hirst.jpg image in order
+to set a color palette for the new painting.
 
 <br>
 
