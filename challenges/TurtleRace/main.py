@@ -3,7 +3,7 @@ Project for Angela Wu's 100 days of code challenges.
 Day # 19
 """
 from turtle import Turtle, Screen
-from random import randint
+from random import randint, shuffle
 
 is_race_on = False
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
@@ -31,17 +31,20 @@ for turtle in screen.turtles():     # screen.turtles() list all turtles in the s
 # Starting the RACE
 if user_bet:
     is_race_on = True
+
 while is_race_on:
+    shuffle(screen.turtles())    # starts at a random turtle
     for turtle in screen.turtles():
         turtle.fd(randint(0, 10))       # random forward moves
         if turtle.xcor() >= 280:        # winner
             winner = turtle.pencolor()
+            if winner == user_bet:
+                print("\n\U0001F947 Congratulations! You won! \U0001F947")
+            else:
+                print("\nYou loose\n¯ \\ _ (ツ) _ / ¯")
             is_race_on = False
 
-if user_bet == winner:
-    print("Congratulations! You won!")
-else:
-    print("You loose :(")
-print(f"The winner is: {winner.upper()} TURTLE!")
+print(f"\n\U0001F3C1\U0001F3C1\U0001F3C1 The winner is \U0001F3C1\U0001F3C1\U0001F3C1"
+      f"\n\t\U0001F422 {winner.upper()} TURTLE! \U0001F3C6")
 
 screen.exitonclick()
