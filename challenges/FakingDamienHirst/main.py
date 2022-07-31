@@ -1,3 +1,7 @@
+"""Faking Damien Hirst.
+Project for Angela Wu's 100 days of code challenges.
+Day # 18
+"""
 import colorgram
 import random
 from turtle import Turtle, colormode, Screen

@@ -132,6 +132,17 @@ and methods.
 ---
 #### Day 17
 ## Project # 11
+### <u>The Quizz Game.</u>
+
+A simple quizz game where you have to answer True or False.
+The game has a score counter and at the end it prints how many correct
+answers you have out of the total (12 questions in this case)
+
+<br>
+
+---
+#### Day 18
+## Project # 12
 ### <u>Faking Damien Hirst</u>
 
 Using [**colorgram**](https://github.com/obskyr/colorgram.py#colorgrampy) 
@@ -143,16 +154,28 @@ to set a color palette for the new painting.
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
+#### Day 19
+## Project # 13
+### <u>Etch-A-Sketch</u>
+
+Small project of an etch-a-sketch board using [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html).
+You can control the pen with the keyboard arrows:
+* **Up** to move and draw a line forwards.
+* **Down** to move and draw a line backwards.
+* **Right** for turning right.
+* **Left** for turning left.
+* **C** to clear the screen.
 
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
+#### Day 19
+## Project # 14
+### <u>Turtle Race</u>
+
+A betting game of a turtle race.
+This project was built with [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html)
+Choose one of turtle competitors and bet for him to win the race!
 
 <br>
 
