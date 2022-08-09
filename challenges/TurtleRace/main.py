@@ -18,6 +18,7 @@ user_bet = screen.textinput("Bets", f"Bet for the winner:\n({' - '.join(colors)}
 # Creating a turtle for each available color
 for color in colors:
     new_turtle = Turtle(shape="turtle")
+    new_turtle.speed("slowest")
     new_turtle.penup()        # Prevent drawing
     new_turtle.color(color)   # Setting each color
 
@@ -36,13 +37,14 @@ while is_race_on:
     shuffle(screen.turtles())    # starts at a random turtle
     for turtle in screen.turtles():
         turtle.fd(randint(0, 10))       # random forward moves
-        if turtle.xcor() >= 280:        # winner
+        if turtle.xcor() >= 280:  # 300(border of screen) - 20(turtle center)
+            is_race_on = False
             winner = turtle.pencolor()
             if winner == user_bet:
                 print("\n\U0001F947 Congratulations! You won! \U0001F947")
             else:
                 print("\nYou loose\n¯ \\ _ (ツ) _ / ¯")
-            is_race_on = False
+
 
 print(f"\n\U0001F3C1\U0001F3C1\U0001F3C1 The winner is \U0001F3C1\U0001F3C1\U0001F3C1"
       f"\n\t\U0001F422 {winner.upper()} TURTLE! \U0001F3C6")

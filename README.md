@@ -180,6 +180,341 @@ Choose one of turtle competitors and bet for him to win the race!
 <br>
 
 ---
+#### Day 20
+## Project #15
+### <u>Snake Game</u>
+
+My version of the [**Snake Game**](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
+using [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html)
+Control the snake with the keyboard while you manage to "eat" every dot that appears
+on the screen. Be aware of avoiding to collapse with the screen borders and with
+your own tail!
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
+#### Day
+## Project #
+### <u></u>
+
+<br>
+
+---
 #### Day
 ## Project #
 ### <u></u>
