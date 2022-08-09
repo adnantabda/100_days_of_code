@@ -15,7 +15,6 @@ class Snake:
             self.snake_body.append(snake_segment)
             starting_xposition -= 20                    # each square 20x20
         self.head = self.snake_body[0]
-        self.tail = self.snake_body[1:]
 
     def move(self):
         """Keeps the snake moving and its head in the front."""

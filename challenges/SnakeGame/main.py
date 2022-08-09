@@ -28,11 +28,10 @@ screen.onkey(fun=snake.left, key="Left")
 screen.onkey(fun=snake.down, key="Down")
 screen.onkey(fun=snake.right, key="Right")
 
-
 # Animation
 game_over = False
 while not game_over:
-    screen.update()                 # show screen that was turned off
+    screen.update()      # show screen that was turned off
     sleep(0.1)
     snake.move()
 
@@ -42,17 +41,17 @@ while not game_over:
         food.respawn()
         snake.grow()
 
+    # Detect collision with screen borders
+    if (snake.head.xcor() > 290 or snake.head.xcor() < -290 or
+            snake.head.ycor() > 290 or snake.head.ycor() < -290):
+        game_over = True
+        scoreboard.end_game()
 
-
-    # TODO: 1. Detect collision with tail
-    for segment in snake.tail:
+    # Detect collision with tail
+    for segment in snake.snake_body[1:]:
         if snake.head.distance(segment) < 15:
             game_over = True
             scoreboard.end_game()
-
-    # TODO: 2. Detect collision with screen borders
-
-
 
 
 screen.exitonclick()
