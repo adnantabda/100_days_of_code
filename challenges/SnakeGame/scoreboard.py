@@ -13,13 +13,13 @@ class Scoreboard(Turtle):
         super().__init__()
         self.hideturtle()
         self.penup()
-        self.sety(280)
         self.color("white")
         self.score = 0
         self.inform_score()
 
     def inform_score(self):
         """Updates and writes the current score on the screen."""
+        self.sety(280)
         self.write(arg=f"Score: {self.score}", move=False, align=ALIGMENT, font=SCORE_FONT)
 
     def increase_score(self):

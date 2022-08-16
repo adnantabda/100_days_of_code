@@ -193,9 +193,12 @@ your own tail!
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
+#### Day 22
+## Project #16
+### <u>Pong Game</u>
+
+Pong is back! with this incredibly "Pythonization" )? of the classic table tennis arcade!
+This version was made with [**Turtle Graphics Module**](https://docs.python.org/3/library/turtle.html)
 
 <br>
 

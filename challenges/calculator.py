@@ -73,9 +73,3 @@ def calculator():
 
 
 calculator()
-
-
-
-
-
-
