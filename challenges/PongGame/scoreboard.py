@@ -10,7 +10,6 @@ class Scoreboard(Turtle):
         self.score = {"right": 0, "left": 0}
         self.hideturtle()
         self.penup()
-        self.level = self.score["right"] + self.score["left"]
         self.inform_score()
 
     def inform_score(self) -> None:
@@ -34,7 +33,6 @@ class Scoreboard(Turtle):
             self.score["right"] += 1
         else:   # Ball on the right side
             self.score["left"] += 1
-        self.level += 1
         self.home()
         self.color("blue")
         self.write(arg="Point!", move=False, align="center", font=("Courier", 80, "normal"))

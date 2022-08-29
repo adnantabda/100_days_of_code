@@ -22,7 +22,7 @@ class Ball(Turtle):
         """Takes the angle the ball is hitting an objectand sets the new
         heading of the ball to the opposite angle it hit the object.
         """
-        new_angle = against.towards(self) * -1
+        new_angle = against.towards(self) * -1  # Opposite angle of impact
         self.setheading(new_angle)
         self.difficulty += 1        # Increases the ball speed with each hit
 
