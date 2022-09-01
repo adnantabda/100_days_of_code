@@ -1,6 +1,5 @@
 """Quizz Game.
 Project for Angela Wu's 100 days of code challenges.
-Day # 17
 """
 from data import question_data
 from question_model import Question

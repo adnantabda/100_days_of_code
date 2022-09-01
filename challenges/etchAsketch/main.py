@@ -1,6 +1,5 @@
 """Etch-A-sKetch.
 Project for Angela Wu's 100 days of code challenges.
-Day # 19
 """
 from turtle import Turtle, Screen, resetscreen
 

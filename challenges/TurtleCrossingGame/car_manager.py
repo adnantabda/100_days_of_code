@@ -20,8 +20,7 @@ class CarManager:
         and place it on the screen.
         """
         is_car_valid = randint(1, 6)    # To slow down the generation of cars rate
-        if is_car_valid == 6:
-            # Proceed to generate the car
+        if is_car_valid == 6:           # Proceed to generate the car.
             car = Turtle()
             car.penup()
             car.shape("square")

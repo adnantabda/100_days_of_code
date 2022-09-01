@@ -1,7 +1,6 @@
 """
 Secret Auction Program.
 Project for Angela Wu's 100 days of code challenges.
-Day # 9
 """
 
 # Logo

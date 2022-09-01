@@ -10,7 +10,6 @@ Theese projects are from Angela Yu's 100 days of code challege using Python cour
 <br>
 
 ---
-#### Day 4
 ## Project #1
 ### <u>Rock-Paper-Scissors game.</u>
 
@@ -20,7 +19,6 @@ You can play till you want to quit.
 <br>
 
 ---
-#### Day 5
 ## Project #2
 ### <u>PyPassword Generator.</u>
 
@@ -30,7 +28,6 @@ The only thing you need to do is decide how many characters (letters, symbols an
 <br>
 
 ---
-#### Day 7
 ## Project #3
 ### <u>The Hangman.</u>
 
@@ -42,7 +39,6 @@ Also let's you decrypt messages if you have the valid key
 <br>
 
 ---
-#### Day 8
 ## Project #4
 ### <u>Caesar Cipher.</u>
 Lets you create encrypted messages for your secret comunications! 
@@ -51,7 +47,6 @@ Also let's you decrypt messages if you have the valid key
 <br>
 
 ---
-#### Day 9
 ## Project #5
 ### <u>Secret Auction Program.</u>
 
@@ -61,7 +56,6 @@ You need to enter the name and bid of each participant and the screen will clean
 <br>
 
 ---
-#### Day 10
 ## Project #6
 ### <u>Calculator.</u>
 
@@ -71,7 +65,6 @@ With this calculator you can use your previous result to continue operateing or 
 <br>
 
 ---
-#### Day 11
 ## Project #7
 ### <u>Blackjack.</u>
 
@@ -82,7 +75,6 @@ The classic BlackJack game.
 <br>
 
 ---
-#### Day 12
 ## Project #8
 ### <u>Number Guessing Game.</u>
 
@@ -93,7 +85,6 @@ and a hard level where you get only 5 chances to win.
 <br>
 
 ---
-#### Day 14
 ## Project #9
 ### <u>Higher-Lower Game.</u>
 
@@ -105,7 +96,6 @@ the first one for the following round.
 <br>
 
 ---
-#### Day 15
 ## Project #10
 ### <u>Coffee Machine Code.</u>
 
@@ -120,9 +110,8 @@ current resources available, includeing how much money from the sales done. And
 <br>
 
 ---
-#### Day 16
 ## Project #10v2
-### <u>OOP - Coffee Machine Code</u>
+### <u>OOP - Coffee Machine Code.</u>
 
 Same as Coffee Machine Code but with an OOP approach using classes, attributes
 and methods.
@@ -130,7 +119,6 @@ and methods.
 <br>
 
 ---
-#### Day 17
 ## Project # 11
 ### <u>The Quizz Game.</u>
 
@@ -141,9 +129,8 @@ answers you have out of the total (12 questions in this case)
 <br>
 
 ---
-#### Day 18
 ## Project # 12
-### <u>Faking Damien Hirst</u>
+### <u>Faking Damien Hirst.</u>
 
 Using [**colorgram**](https://github.com/obskyr/colorgram.py#colorgrampy) 
 and [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html) modules,
@@ -154,9 +141,8 @@ to set a color palette for the new painting.
 <br>
 
 ---
-#### Day 19
 ## Project # 13
-### <u>Etch-A-Sketch</u>
+### <u>Etch-A-Sketch.</u>
 
 Small project of an etch-a-sketch board using [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html).
 You can control the pen with the keyboard arrows:
@@ -169,9 +155,8 @@ You can control the pen with the keyboard arrows:
 <br>
 
 ---
-#### Day 19
 ## Project # 14
-### <u>Turtle Race</u>
+### <u>Turtle Race.</u>
 
 A betting game of a turtle race.
 This project was built with [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html)
@@ -180,22 +165,22 @@ Choose one of turtle competitors and bet for him to win the race!
 <br>
 
 ---
-#### Day 20
 ## Project #15
-### <u>Snake Game</u>
+### <u>Snake Game.</u>
 
 My version of the [**Snake Game**](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
 using [**Turtle Graphics**](https://docs.python.org/3/library/turtle.html)
 Control the snake with the keyboard while you manage to "eat" every dot that appears
 on the screen. Be aware of avoiding to collapse with the screen borders and with
-your own tail!
+your own tail!<br><br>
+**Added feature**: The game now has a high score history tracking and it will be also
+shown at the top of the screen next to your current score.
 
 <br>
 
 ---
-#### Day 22
 ## Project #16
-### <u>Pong Game</u>
+### <u>Pong Game.</u>
 
 Pong is back! with this incredibly "Pythonization" )? of the classic table tennis arcade!
 This version was made with [**Turtle Graphics Module**](https://docs.python.org/3/library/turtle.html)
@@ -203,331 +188,22 @@ This version was made with [**Turtle Graphics Module**](https://docs.python.org/
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
+## Project #17
+### <u>Turtle Crossing Game.</u>
+A simple game done with [**Turtle Graphics Module**](https://docs.python.org/3/library/turtle.html).
+You now are a turtle crossing a very bussy street where you only can go forward using your "Up" key of your keyboard.
+Each time you reach the other side of the road, the cars will drive faster than before.
+Avoid being hit by a car and have a nice game! :)
 
 <br>
 
 ---
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
-
-<br>
-
----
-#### Day
-## Project #
-### <u></u>
+## Project #18
+### <u>Mail Merge Project.</u>
+Learning paths. We were given a .txt file with a bunch of name, and a model letter on another directory.
+The objective of this program is to automate the task of replaceing the model letter with each name
+given on the file, and saving it as a new letter ready to be sent -with a new name based on to whom 
+the letter will be sent- on a different folder.
 
 <br>
 

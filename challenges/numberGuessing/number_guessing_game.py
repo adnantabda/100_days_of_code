@@ -1,6 +1,5 @@
 """Number Guessing Game.
 Project for Angela Wu's 100 days of code challenges.
-Day # 12
 """
 import random
 

@@ -1,6 +1,5 @@
 """The Turtle Race.
 Project for Angela Wu's 100 days of code challenges.
-Day # 19
 """
 from turtle import Turtle, Screen
 from random import randint, shuffle

@@ -15,7 +15,6 @@ class Player(Turtle):
         self.shape("turtle")
         self.setheading(90)
         self.go_to_start()
-        self.level = 1
 
     def go_to_start(self):
         self.goto(STARTING_POSITION)
@@ -26,5 +25,4 @@ class Player(Turtle):
 
     def is_at_finish(self) -> bool:
         if self.ycor() > FINISH_LINE_Y:
-            self.level += 1
             return True

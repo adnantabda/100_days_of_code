@@ -4,7 +4,6 @@ from random import randint
 
 class Food(Turtle):
     """Models the food the snake is going to eat."""
-
     def __init__(self):
         """Initialize a single circle as food."""
         super().__init__()

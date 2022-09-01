@@ -1,6 +1,5 @@
 """Coffee Machine Code.
 Project for Angela Wu's 100 days of code challenges.
-Day # 15
 """
 from data import MENU, resources
 

@@ -131,3 +131,12 @@ dmypy.json
 # My tests
 pruebas.py
 
+/challenges/MailMergeProjec/Output/ReadyToSend/example.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Aang.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Sokka.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Appa.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Momo.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Zuko.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Uncle Iroh.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Toph.txt
+/challenges/MailMergeProjec/Output/ReadyToSend/letter_for_Katara.txt

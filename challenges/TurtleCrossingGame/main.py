@@ -1,6 +1,5 @@
 """Turtle Crossig Game.
 Project for Angela Wu's 100 days of code challenges.
-Day # 23
 """
 from time import sleep
 from turtle import Screen
@@ -26,8 +25,8 @@ game_over = False
 while not game_over:
     sleep(0.1)          # Animation effect
     screen.update()     # Refresh the screen --> line: 9
-    scoreboard.clear()  # Prevents the messages to overlap with each change of level.
-    scoreboard.inform_level(crossing_turtle)
+
+    scoreboard.inform_level()
     car_manager.generate_car()
     car_manager.drive_cars()
 
@@ -39,6 +38,7 @@ while not game_over:
 
     # Next level
     if crossing_turtle.is_at_finish():
+        scoreboard.level += 1
         crossing_turtle.go_to_start()
         car_manager.increase_speed()
 

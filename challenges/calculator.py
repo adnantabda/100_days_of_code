@@ -1,7 +1,6 @@
 """
 Calculator that supports basic operations ( +, -, /, * ).
 Project for Angela Wu's 100 days of code challenges.
-Day # 10
 """
 
 # Defining basic operations

@@ -1,7 +1,6 @@
 """
 Caesar Cipher.
 Project for Angela Wu's 100 days of code challenges.
-Day # 8
 """
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
